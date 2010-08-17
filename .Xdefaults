@@ -7,7 +7,7 @@
 Xcursor.theme:	Vanilla-DMZ-AA
 
 ! urxvt Stuff
-URxvt*geometry: 108x30 
+!URxvt*geometry: 108x30 
 
 URxvt.buffered: true
 URxvt.background: #222222
