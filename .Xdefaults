@@ -1,0 +1,149 @@
+! .Xdefaults File for fbesser
+!
+!
+!
+
+! Cursor
+Xcursor.theme:	Vanilla-DMZ-AA
+
+! urxvt Stuff
+URxvt*geometry: 108x30 
+
+URxvt.buffered: true
+URxvt.background: #222222
+URxvt.foreground: #899ca1
+URxvt.cursorColor: #95C749
+URxvt.cursorBlink: true
+URxvt.scrollBar_right: false
+URxvt.scrollBar: false
+
+URxvt.underlineColor:   yellow
+!URxvt.font:             xft:ProggyClean:pixelsize=12:antialias=false
+!------------
+!True Transparency
+!------------
+!set to 32-bit for real transparency (compositing required (see xcompmgr)
+!urxvt*depth:             32
+!transparent=0000 opaque=ffff
+!urxvt*background: rgba:1111/1111/1111/dddd
+!urxvt*background: rgba:1111/1111/1111/0000
+
+!URxvt.font:              -windows-montecarlo-medium-r-normal--11-110-72-72-c-60-microsoft-cp1252
+URxvt.font:             xft:DejaVu Sans Mono:pixelsize=11:antialias=true
+!URxvt.boldFont:         xft:Terminus:Bold:pixelsize=10:antialias=false
+!URxvt.font:              -*-ProggySquare-*-*-*-*-9-*-*-*-*-*-iso8859-1
+!URxvt*boldFont:          -*-ProFont-*-*-*-*-11-*-*-*-*-*-iso8859-1
+
+URxvt.perl-ext-common:  default,matcher
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1
+
+!URxvt.title:            ArchWiki Example
+URxvt.iconName: rxvt-256color
+ 
+#*foreground:#a0a0a0
+#*background:#1B1D1E
+
+!black
+!*color0:    #1B1D1E
+!*color8:    #505354
+!red
+
+!*color1:    #F92672
+!*color9:    #FF669D
+!green
+!*color2:    #A6E22E
+!*color10:   #BEED5F
+!yellow
+!*color3:    #FD971F
+!*color11:   #E6DB74
+!blue
+!*color4:    #66D9EF
+!*color12:   #66D9EF
+!magenta
+!*color5:    #9E6FFE
+!*color13:   #9E6FFE
+!cyan
+!*color6:    #5E7175
+!*color14:   #A3BABF
+!white
+!*color7:    #CCCCC6
+!*color15:   #F8F8F2
+
+!*foreground:     #DDDDDD
+!*background:     #121212
+!black
+!*color0:         #353535
+!*color8:         #666666
+!red
+!*color1:         #AE4747
+!*color9:         #EE6363
+!green
+!*color2:         #556B2F
+!*color10:        #9ACD32
+!brown/yellow
+!*color3:         #DAA520
+!*color11:        #FFC125
+!blue
+!*color4:         #6F99B4
+!*color12:        #7C96B0
+!magenta
+!*color5:         #8B7B8B
+!*color13:        #D8BFD8
+!cyan
+!*color6:         #A7A15E
+!*color14:        #F0E68C
+!white
+!*color7:         #DDDDDD
+!*color15:        #FFFFFF
+
+! Molokai MOD
+!black 
+*color0 : #222222
+*color8 : #454545
+!red
+*color1 : #F92672
+*color9 : #F92672
+!green
+*color2 : #A6E22E
+*color10: #A6E22E
+!yellow
+*color3 : #FD971F
+*color11: #FD971F
+!blue
+*color4 : #4682B4
+*color12: #4682B4
+!magenta
+*color5 : #AE81FF
+*color13: #AE81FF
+!cyan
+*color6: #89b6e2
+*color14: #46a4ff
+!white
+*color7 : #FFFFFF
+*color15: #FFFFFF
+!PUZZLED Low Contrast
+!black
+!    *color0: #222222
+!    *color8: #3C3C3C
+!red
+!    *color1: #CD5C5C
+!    *color9: #D69300
+!green
+!    *color2: #95C749
+!    *color10: #AFD700
+!yellow
+!    *color3: #D2B48C
+!    *color11: #CDCDC1
+!blue
+!    *color4: #5F7B8A
+!    *color12: #6B7B8A
+!magenta
+!    *color5: #CDCDB4
+!    *color13: #CDCDB4
+!cyan
+!    *color6: #686868
+!    *color14: #778798
+!white
+!    *color7: #FFFFFF
+!    *color15: #FFFFFF
